@@ -27,4 +27,6 @@ def HappyNumber(number):
     else:
         print "This is indeed a Happy Number!"
 
-print HappyNumber(11)
+user = int(raw_input("Enter an integer and I'll tell if you if it's a happy number:"))
+
+HappyNumber(user)

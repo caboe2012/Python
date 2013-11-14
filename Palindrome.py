@@ -12,10 +12,10 @@ def reverse(words):
         counter -= 1
     print l
     if s == l:
-        print "Holy sh*t dude! " + words + " is a Palindrome!"
+        print "Cool! " + words.upper() + " is a Palindrome!"
     else:
-        print "Hate to break it to you my friends but " + words + " ain't a Paly"  
+        print "Hate to break it to you my friends but " + words.upper() + " isn't a Palindrome."  
 
-user = raw_input("Enter a word that I may check it's palindrominess")
+user = raw_input("Enter a word that I may check it's palindrominess: ")
 
 print reverse(user)
